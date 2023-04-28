@@ -1,0 +1,87 @@
+.cardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+    margin-bottom: 25px;
+}
+
+.paginationWrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.loadingWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.errorWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.header {
+    background-color: rgb(209 85 105);
+    font-family: Luckiest Guy;
+    font-size: 35px;
+    color: rgb(0 0 0 / 86%);
+    text-align: center;
+    padding: 5px;
+    height: 80px;
+}
+
+.headerTitle {
+    border: 1px solid rgb(244 120 25);
+    border-radius: 10px;
+    padding: 10px;
+    background: rgb(244 120 25);
+}
+
+.searchAndFilterWrapper {
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
+}
+
+.select {
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+.input {
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+.modalWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modalImageNameWrapper {
+    display: flex;
+    
+}
+.modalNameDescription {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.image {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}
+
+.modalName {
+    font-size: x-large;
+    color: rgb(33, 33, 0);
+}
